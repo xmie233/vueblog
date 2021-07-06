@@ -4,13 +4,11 @@ const route = require('./api/index.js')
 const app = express()
 const mail = require('./email')
 
-
 app.set('port', (process.env.port || 3003))
 app.use(bodyParser.json({ limit: '100mb' }));
 app.use(bodyParser.urlencoded({ limit: '100mb', extended: true }));
 
 app.use('/public', express.static('public'));
-
 
 app.all("*", function (req, res, next) {
     //设置允许跨域的域名，*代表允许任意域名跨域
@@ -26,8 +24,6 @@ app.all("*", function (req, res, next) {
 });
 
 route(app)
-
-
 
 app.post('/api/mail', (req, res) => {
     const content = `
