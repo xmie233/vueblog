@@ -38,7 +38,7 @@ mongod --dbpath d:\data      // d:\data 为数据库存放位置，可自行设�
 ```
 启动服务器（上一步的终端不要关，打开新的终端）
 ```
-cd serve   //进入项目目录中的serve目录,即my_blogrve
+cd serve   //进入项目目录中的serve目录,即my_blog/serve
 node app.js
 ```
 开启博客（上一步的终端不要关，打开新的终端，等待一会页面将在8081端口自动弹出）
