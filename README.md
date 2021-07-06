@@ -1,6 +1,9 @@
 ## 介绍
-一个基于vue + node.js + mongodb的前后端分离个人博客:laughing:  
-vue-cli版本为4.5
+一个基于vue + node.js + mongodb的前后端分离个人博客:laughing:
+## 环境
+vue-cli 4.5.0  
+node.js 14.16.0  
+mongodb 4.4.5
 ## 技术栈
 前端：vue-cli，vue-router，vuex，axios，bootstrap  
 后端：node.js，mongodb，express
